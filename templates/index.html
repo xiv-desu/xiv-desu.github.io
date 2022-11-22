@@ -1,0 +1,9 @@
+{% extends "zola_easydocs_theme/templates/index.html" %}
+
+{% block content -%}
+    {%- if section.word_count is number and section.word_count > 0 -%}
+        {{ section.content |safe }}
+    {%- else -%}
+        {%- include "sec_toc_2_level.html" -%}
+    {% endif -%}
+{% endblock content %}
