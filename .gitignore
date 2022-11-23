@@ -1,2 +1,5 @@
 /public
 *~
+secrets.tfvars
+terraform.tfstate*
+.terraform*

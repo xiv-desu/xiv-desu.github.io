@@ -1,0 +1,16 @@
+resource discord_category_channel {{ catslug }} {
+  name = "{{ category.name | safe }}"
+  server_id = resource.discord_server.server.id
+  position = {{ cat_index }}
+}
+
+{% for name in category.channels %}
+  {% set chanslug = name | slugify %}
+  {% set channel = load_data(path="content/"~dir~"/"~catslug~"/"~chanslug~".toml") %}
+  {% if channel.type == "text" %}
+    {% include "terraform/text_channel.tf.html" %}
+  {% else %}
+    {{ throw(message="invalid channel type"~channel.type) }}
+  {% endif %}
+  {% set_global chan_index = chan_index + 1 %}
+{% endfor %}

@@ -1,0 +1,9 @@
+name = "Admin"
+
+channels = [
+  "server-setup",
+  "moderation",
+  "admin-bot-commands",
+  "bot-logs",
+  "member-logs",
+]
