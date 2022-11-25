@@ -1,6 +1,9 @@
 resource discord_text_channel {{ chanslug }} {
-  name = "{{ channel.name | safe}}"
-  topic = "{{ channel.topic | default(value="") | safe }}"
+  name = "{{ chan_name | safe}}"
+  topic = trimspace(<<-HERE
+    {{ channel.topic | default(value="") | safe }}
+    HERE {# >> #}
+  )
   nsfw = {{ page.extra.nsfw | default(value=false) }}
 
   server_id = local.server_id
@@ -17,9 +20,10 @@ resource discord_text_channel {{ chanslug }} {
   resource discord_message {{ chanslug }}_{{ loop.index }} {
     channel_id = resource.discord_text_channel.{{ chanslug }}.id
     embed {
-      description = <<HERE
-        {{ msg.description | safe }}
-      HERE {# >> #}
+      description = trimspace(<<-HERE
+        {{ msg.description | safe | trim }}
+        HERE {# >> #}
+      )
       title = "{{ msg.title | safe }}"
     }
     {% if loop.index == 1 %}

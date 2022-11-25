@@ -1,9 +1,0 @@
-name = "Info"
-
-channels = [
-  "welcome-info",
-  "announcements",
-  "rules",
-  "resources",
-  "community-links",
-]

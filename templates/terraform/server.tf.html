@@ -32,10 +32,8 @@ locals {
 
 {% set dir = page.relative_path | split(pat="/") | slice(end=-1) | join(sep="/") %}
 {% set chan_index = 0 %}
-{% for name in page.extra.categories %}
-  {% set catslug = name | slugify %}
-  {% set category = load_data(path="content/"~dir~"/"~catslug~".toml") %}
+{% for category in page.extra.categories %}
   {% set cat_index = loop.index0 %}
   {% include "terraform/category.tf.html" %}
-  {% set_global chan_index = category.channels | length + chan_index %}
+  {% set_global chan_index = category.channels | default(value=[]) | length + chan_index %}
 {% endfor %}

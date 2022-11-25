@@ -1,4 +1,3 @@
-name = "admin-bot-commands"
 type = "text"
 
 [[messages]]
