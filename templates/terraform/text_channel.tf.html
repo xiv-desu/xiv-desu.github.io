@@ -21,7 +21,7 @@ resource discord_text_channel {{ chanslug }} {
     channel_id = resource.discord_text_channel.{{ chanslug }}.id
     embed {
       description = trimspace(<<-HERE
-        {{ msg.description | safe | trim }}
+        {{ msg.description | safe }}
         HERE {# >> #}
       )
       title = "{{ msg.title | safe }}"
@@ -29,7 +29,10 @@ resource discord_text_channel {{ chanslug }} {
     {% if loop.index == 1 %}
       pinned = true
     {% else %}
-      depends_on = [resource.discord_message.{{ chanslug }}_{{ loop.index }}]
+      depends_on = [resource.discord_message.{{ chanslug }}_{{ loop.index - 1 }}]
+      lifecycle {
+        replace_triggered_by = [resource.discord_message.{{ chanslug }}_{{ loop.index - 1 }}.id]
+      }
     {% endif %}
   }
 {% endfor %}

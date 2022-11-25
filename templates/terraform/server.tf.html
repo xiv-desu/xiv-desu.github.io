@@ -37,3 +37,10 @@ locals {
   {% include "terraform/category.tf.html" %}
   {% set_global chan_index = category.channels | default(value=[]) | length + chan_index %}
 {% endfor %}
+
+{% for name in page.extra.data_roles %}
+  data discord_role {{ name | slugify }} {
+    server_id = resource.discord_server.server.id
+    name = "{{ name | safe }}"
+  }
+{% endfor %}

@@ -5,6 +5,9 @@ template = "terraform/server.tf.html"
 in_search_index = false
 sort_by = "weight"
 
+[extra]
+data_roles = ["Moderator"]
+
 [[extra.categories]]
 name = "info"
 channels = ["welcome-info", "announcements", "rules", "resources", "community-links"]

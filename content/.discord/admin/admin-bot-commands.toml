@@ -1,17 +1,1 @@
 type = "text"
-
-[[messages]]
-title = "1. Above all, be respectful!"
-description = """
-      Keep this community welcoming to everyone! This means no attacking others based on their personal identity or characteristics, no disparaging stereotypes, no harassment, and no being a generally unpleasant human being. Just generally don't be an asshole. Keep personal drama out of the server. We aren't interested.
-
-      If a conversation is getting heated, moderators may ask for it to move to private messages or stop altogether.
-"""
-
-[[messages]]
-title = "2. lorem"
-description = "ipsum"
-
-[[messages]]
-title = "3. dolor"
-description = "set"
