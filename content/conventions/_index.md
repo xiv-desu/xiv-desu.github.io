@@ -49,7 +49,9 @@ Likewise, it's completely okay if the leader doesn't want to be the shot-caller,
 
 {{ image(alt="A diagram of markers showing #1 in the top-right corner.", src="markers.png", caption="Marker diagram") }}
 
-The #1 marker is not consistently placed in North American parties. Some groups place it in the north-west corner, others in the north-east. On occasion, we even see groups that put letters on the cardinals and numbers on the intercardinals.
+The #1 marker is not consistently placed in North American parties.
+Some groups place it in the north-west corner, others in the north-east.
+On occasion, we even see groups that put numbers on the cardinals and letters on the intercardinals.
 
 #1 in the NE is the most common worldwide, and also makes the markers more consistent: both cardinal and intercardinal makers can be read clockwise from north, like an actual clock. With #1 in the northwest, you would have to read clockwise starting from the northwest.
 
