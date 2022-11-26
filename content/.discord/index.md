@@ -6,7 +6,7 @@ in_search_index = false
 sort_by = "weight"
 
 [extra]
-data_roles = ["Moderator"]
+data_roles = ["Moderator", "Tuned In", "KupoBot"]
 
 [[extra.categories]]
 name = "info"
