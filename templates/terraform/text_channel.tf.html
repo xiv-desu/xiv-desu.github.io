@@ -20,11 +20,16 @@ resource discord_text_channel {{ chanslug }} {
   resource discord_message {{ chanslug }}_{{ loop.index }} {
     channel_id = resource.discord_text_channel.{{ chanslug }}.id
     embed {
-      description = trimspace(<<-HERE
-        {{ msg.description | safe }}
-        HERE {# >> #}
-      )
       title = "{{ msg.title | safe }}"
+      {% if msg.description %}
+        description = trimspace(<<-HERE
+          {{ msg.description | safe }}
+          HERE {# >> #}
+        )
+      {% endif %}
+      {% if msg.url %}
+        url = "{{ msg.url | safe }}"
+      {% endif %}
     }
     {% if loop.index == 1 %}
       pinned = true

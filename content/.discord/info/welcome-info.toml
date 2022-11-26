@@ -38,3 +38,21 @@ description = """
     tell us more about youself in <#${discord_text_channel.introductions.id}> if you like,
     or even jump right into <#${discord_text_channel.party-finder.id}>! 👍
 """
+
+[[messages]]
+title = "Invite Link"
+url = "https://discord.gg/hVtSqdfFqX"
+
+[[messages]]
+title = "Helping Out"
+description = """
+    We're always looking for more folks to help out around the community. There's a lot we want to do and not nearly enough people to get it all done right now! Things we particularly need help with include:
+
+    * Moderating the server
+    * Promoting the community and PF on Dynamis
+    * Curating resources and making new ones where they're needed
+    * Graphic art (emojis/some other ideas)
+    * Proofreading 
+
+    If you're interested in helping out, please drop me a line! Don't be shy!
+"""
