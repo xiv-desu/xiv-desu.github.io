@@ -1,0 +1,29 @@
+@import '../themes/zola_easydocs_theme/sass/main';
+
+figure {
+  max-width: 100%;
+  width: 35%;
+  float: right;
+  text-align: center;
+}
+
+figcaption {
+  font-style: italic;
+  font-size: 80%;
+}
+
+article {
+  margin-right:calc(#{$baseline});
+}
+
+@media screen and (max-width: 768px) {
+  figure {
+    float: none;
+    width: inherit;
+    min-width: 256px;
+  }
+}
+
+nav {
+  width: 15rem;
+}
