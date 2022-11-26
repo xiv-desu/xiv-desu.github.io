@@ -1,2 +1,6 @@
 type = "text"
-topic = "General discussions about Party Finder, like appropriate culture and behaviour, how to use it, etc."
+topic = """
+    General discussions about Party Finder, like appropriate culture and behaviour, how to use it, etc.
+
+    DESU conventions: https://xiv-desu.github.io/conventions
+"""
