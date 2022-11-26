@@ -44,7 +44,7 @@
             <label class="tree-toggle-label"
                     for="{{ subsection.title | slugify }}">
                 {% if subsection.extra.direct_nav | default(value=false) %}
-                    <a href="{{section.permalink | safe}}{{ _ugly_url }}">{{ subsection.title }}</a>
+                    <a href="{{ subsection.permalink | safe }}{{ _ugly_url }}">{{ subsection.title }}</a>
                 {% else %}
                     {{ subsection.title }}
                 {% endif %}

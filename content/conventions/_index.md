@@ -75,11 +75,11 @@ Rather than placing a marker on the ground and the party positioning themselves 
 Specifically, tanks are `MT` (main tank) and `OT` (off-tank), healers are `H1` and `H2`, melee DPS are `M1` and `M2`, and ranged DPS are `R1` and `R2`.
 If the party composition is different, players may have to overflow onto other roles' spots (most often a ranged DPS taking a melee spot).
 
+{{ image(alt="A macro readout showing spread spots and light parties. The spread spots, clockwise from north, are: main tank, ranged 2, healer 2, melee 2, off-tank, melee 1, healer 1, ranged 1. The first light party has the main tank and healer and DPS 1; the second has the off-tank and healer and DPS 2.", src="spots.png", caption="Diagram of default positions") }}
+
 The specific assignment of spread spots and light parties is often fight specific, designed to optimize for good melee uptime or particular mechanics.
 If the party has a fight-specific macro, it will set out the spread spots and light parties, among other things.
 If the party doesn't have a fight-specific macro, then the default positions are per the diagram (a macro for this diagram is available in the DESU server).
-
-{{ image(alt="A macro readout showing spread spots and light parties. The spread spots, clockwise from north, are: main tank, ranged 2, healer 2, melee 2, off-tank, melee 1, healer 1, ranged 1. The first light party has the main tank and healer and DPS 1; the second has the off-tank and healer and DPS 2.", src="spots.png", caption="Diagram of default positions" }}
 
 ### 3a. Job priorities for positions
 
