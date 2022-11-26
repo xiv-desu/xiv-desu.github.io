@@ -45,17 +45,7 @@ Nobody should be upset at someone learning the fight for the first time!
 
 Likewise, it's completely okay if the leader doesn't want to be the shot-caller, especially when learning the fight. But they should designate someone else to do it.
 
-## 1. The #1 marker goes in the north-east by default
-
-{{ image(alt="A diagram of markers showing #1 in the top-right corner.", src="markers.png", caption="Marker diagram") }}
-
-The #1 marker is not consistently placed in North American parties.
-Some groups place it in the north-west corner, others in the north-east.
-On occasion, we even see groups that put numbers on the cardinals and letters on the intercardinals.
-
-#1 in the NE is the most common worldwide, and also makes the markers more consistent: both cardinal and intercardinal makers can be read clockwise from north, like an actual clock. With #1 in the northwest, you would have to read clockwise starting from the northwest.
-
-## 2. Ask questions.
+## 1. Ask questions.
 
 If you are unclear about part of the strat, ask about it.
 
@@ -68,6 +58,16 @@ If someone doesn't seem to be following the strat, ask if they understand it.
 On average, questions will save more time than they waste.
 
 _Corollary_: Don't get snippy at others for asking questions.
+
+## 2. The #1 marker goes in the north-east by default
+
+{{ image(alt="A diagram of markers showing #1 in the top-right corner.", src="markers.png", caption="Marker diagram") }}
+
+The #1 marker is not consistently placed in North American parties.
+Some groups place it in the north-west corner, others in the north-east.
+On occasion, we even see groups that put numbers on the cardinals and letters on the intercardinals.
+
+#1 in the NE is the most common worldwide, and also makes the markers more consistent: both cardinal and intercardinal makers can be read clockwise from north, like an actual clock. With #1 in the northwest, you would have to read clockwise starting from the northwest.
 
 ## 3. Claim positions in chat rather than the clock spot dance
 
