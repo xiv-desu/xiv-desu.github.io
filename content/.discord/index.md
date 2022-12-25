@@ -1,5 +1,5 @@
 +++
-title = "Dynamis Extreme, Savage, Ultimate"
+title = "DESU: Dynamis Extreme, Savage, Ultimate"
 template = "terraform/server.tf.html"
 
 in_search_index = false
@@ -10,11 +10,11 @@ data_roles = ["Moderator", "Tuned In", "KupoBot"]
 
 [[extra.categories]]
 name = "info"
-channels = ["welcome-info", "announcements", "rules", "resources", "community-links"]
+channels = ["welcome-info", "announcements", "rules", "resources", "community-links", "optional-roles"]
 
 [[extra.categories]]
 name = "server"
-channels = ["setup-instructions", "char-setup", "optional-roles", "open-a-ticket", "bot-spam", "server-suggestions"]
+channels = ["setup-instructions", "char-setup", "open-a-ticket", "bot-spam", "server-suggestions"]
 
 [[extra.categories]]
 name = "community"
