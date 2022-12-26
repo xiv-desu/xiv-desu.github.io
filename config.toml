@@ -1,7 +1,7 @@
 title = "XIV DESU"
 
 # The URL the site will be built for
-base_url = "https://xiv-desu.github.io/"
+base_url = "https://dynamis.gg/"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
