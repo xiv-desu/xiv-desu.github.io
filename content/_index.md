@@ -13,7 +13,9 @@ and to provide a wealth of resources for everyone looking to tackle any and all
 of the high-end combat content this game has to offer - together.
 
 This site is a bit bare-bones at the moment, apologies for that. Very much a
-work in progress!
+work in progress! The source code is hosted on
+[GitHub](https://github.com/dynamis-gg/dynamis-gg.github.io); contributions are
+very welcome.
 
 ## Our main objectives
 
@@ -34,6 +36,3 @@ and less on arguing and trying to remember strats
 DESU helps folks get in touch - whether you're searching for pick-up groups,
 trying to get stuff unlocked, or seeking people to play with on a more regular
 basis.
-
-This is a great opportunity to get to know one another and learn from each
-other! Remember, the real secret of Dynamis is the power of friendship! ✨
