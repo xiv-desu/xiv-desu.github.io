@@ -1,6 +1,8 @@
 +++
-title = "FAQ (DRAFT)"
-description = "DESU Conventions FAQ"
+title = "FAQ"
+description = "Frequently Asked Questions"
+
+weight = 3
 +++
 
 ## What are the DESU conventions?
