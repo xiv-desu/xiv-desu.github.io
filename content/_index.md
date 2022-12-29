@@ -1,8 +1,10 @@
 +++
+sort_by = "weight"
+insert_anchor_links = "right"
 +++
 # Dynamis Extreme, Savage, Ultimate
 
-[Join us on Discord!](https://discord.gg/hVtSqdfFqX)
+## [Join us on Discord!](https://discord.gg/hVtSqdfFqX)
 
 ## What is DESU?
 
