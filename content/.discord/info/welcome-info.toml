@@ -32,7 +32,7 @@ description = """
 
     Once you're registered, you can head to <#${discord_text_channel.optional-roles.id}> to select roles.
     You'll find pingable roles for specific fights, mentorship and learning roles, and more.
-    If you're interested in hearing about minor updates to the server, be sure to grab the <@&${data.discord_role.tuned-in.id}> role.
+    If you're interested in hearing about minor updates to the server, be sure to grab the <@&${data.discord_role.tunedin.id}> role.
 
     From there you should be all set to head over to <#${discord_text_channel.general.id}> and say hi,
     tell us more about youself in <#${discord_text_channel.introductions.id}> if you like,
@@ -41,16 +41,15 @@ description = """
 
 [[messages]]
 title = "Invite Link"
-url = "https://discord.gg/hVtSqdfFqX"
+description = "Use this link to invite people to the server: https://discord.gg/hVtSqdfFqX"
 
 [[messages]]
 title = "Helping Out"
 description = """
-    We're always looking for more folks to help out around the community. There's a lot we want to do and not nearly enough people to get it all done right now! Things we particularly need help with include:
+    We're always looking for more folks to help out around the community. Some areas where we could use help include:
 
-    * Moderating the server
     * Promoting the community and PF on Dynamis
-    * Curating resources and making new ones where they're needed
+    * Writing guides and curating resources
     * Graphic art (emojis/some other ideas)
     * Proofreading 
 

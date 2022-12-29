@@ -12,10 +12,12 @@ resource discord_category_channel {{ catslug }} {
   {% set chan_name = name %}
   {% if channel.type == "text" %}
     {% include "terraform/text_channel.tf.html" %}
-    {% set_global chan_index = chan_index + 1 %}
   {% elif channel.type == "voice" %}
     {% include "terraform/voice_channel.tf.html" %}
+  {% elif channel.type == "forum" %}
+    {# No support for forum channels in the terraform provider yet. #}
   {% else %}
     {{ throw(message="invalid channel type"~channel.type) }}
   {% endif %}
+  {% set_global chan_index = chan_index + 1 %}
 {% endfor %}

@@ -31,11 +31,39 @@ description = """
 [[messages]]
 title = "4. Spoiler policy"
 description = """
-      Current patch spoilers must be tagged throughout the server, except in channels/threads dedicated to new content. The current expansion, apart from current patch, may be talked about in general terms, but major story spoilers must be kept in dedicated threads/channels or tagged. Extreme/savage encounter names from current expac should be considered spoilers; please use EX1, EX2, etc. and P5S, P6S, etc. to refer to them.
+      DESU is a welcoming community for folks at all levels of experience, so we ask that you be cautious not to spoil other players!
 
-      Content spoilers (e.g. fight mechanics) should be restricted to appropriate channels, even for older content, as some people want to be able to do older content unspoiled.
+      **Things that Need Spoiler Tags**
 
-      If someone spoils inappropriately, please ask them to edit/delete their message. Ping moderators if they don't respond quickly, or if the spoiler is a very big one (e.g. the identity of the Endwalker MSQ trial bosses). Moderators may delete messages with spoilers without warning, if it's judged urgent enough.
+      - **Major story details past the end of 2.0** (the first credits roll). This is *especially* true in <#${discord_text_channel.story-lore.id}>.
+      - **Boss names** *except* as noted below. The common practice of referring to EX fights by boss name is discouraged.
+      - **The names of "Minstrels's Ballad" trials**, which spoil boss names, **and the first three Endwalker MSQ trials** (levels 83, 89, 90) which spoil the story.
+      - **All details about the mechanics of a particular fight**, including mechanic names. This is true even for older fights, so that people who want to play old content blind can do so. General discussion of mechanics, not referring to any specific fight, is ok. 
+
+      **Things that Don't Need Spoiler Tags**
+
+      - The story up to the end of 2.0 (the first credits roll).
+      - All ARR boss names **outside Coils of Bahamut**, and the Warring Triad boss names.
+      - Instance names except as noted above.
+      - "Genericized" mechanic names such as akh morn, exaflare, and limit cut. These refer to all instances of similar mechanics regardless of the actual mechanic names.
+
+      **New Patch Spoiler Rules**
+
+      - Any information about a patch that's made public before its release, such as in a Live Letter or the Patch Notes, is fine to discuss following normal spoiler rules.
+      - **All other details about a patch** must be marked behind spoiler tags until the next minor patch. This includes screenshots. A "minor patch" is a patch that's part of the normal release schedule, and doesn't include hotfixes, emergency balance patches, etc.
+      - Datamined info is **BANNED** because it gives an unfair headstart in glam endgame.
+"""
+
+[[messages]]
+title = "INFO: How to Use Spoilers"
+description = """
+      You can use \\|\\|spoiler markup\\|\\| to discuss spoilers, but it must be tagged with an appropriate warning. For instance, [HW] spoiler warns that the spoiler bar might spoil anything from Heavensward (including HW patches).
+
+      Spoilers can be discussed openly in dedicated threads. For instance, in a thread about a specific fight, you can freely discuss that fight's mechanics. __Careful:__ The thread title and first message must not contain spoilers as they can be seen without opening the thread.
+
+      Images are equally subject to the spoiler policy. When you attach an image, you can mark it as a spoiler, but you can't mark an image as a spoiler when editing a message. __Careful:__ When posting in <#${discord_text_channel.party-finder.id}>, screenshots of PF postings may need to be marked as spoilers!
+
+      If another user breaks the spoiler policy, please ask them to correct their message. If the situation is urgent/the user is not responding, please ping <@&${data.discord_role.moderator.id}> and we will delete the message. The spoiler policy will be aggressively enforced to protect new players, but there's no further consequence unless you're posting spoilers deliberately or repeatedly.
 """
 
 [[messages]]

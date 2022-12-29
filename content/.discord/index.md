@@ -6,42 +6,46 @@ in_search_index = false
 sort_by = "weight"
 
 [extra]
-data_roles = ["Moderator", "Tuned In", "KupoBot"]
+data_roles = ["Moderator", "TunedIn", "KupoBot"]
 
 [[extra.categories]]
 name = "info"
-channels = ["welcome-info", "announcements", "rules", "resources", "community-links", "optional-roles"]
-
-[[extra.categories]]
-name = "server"
-channels = ["setup-instructions", "char-setup", "open-a-ticket", "bot-spam", "server-suggestions"]
-
-[[extra.categories]]
-name = "community"
-channels = ["introductions", "general", "ask-for-help-here", "spoilers-lore", "events", "screenshots", "memes"]
-
-[[extra.categories]]
-name = "content"
-channels = ["conventions-voting", "pf-culture", "macro-sharing", "ex-discussion", "savage-discussion", "ult-discussion", "crit-discussion", "other-content-discussion"]
+channels = ["welcome-info", "announcements", "rules", "server-map", "resources", "community-links", "optional-roles"]
 
 [[extra.categories]]
 name = "party up"
-channels = ["party-finder", "static-lfm", "static-lfg"]
+channels = ["party-finder", "events", "planning"]
+
+[[extra.categories]]
+name = "community"
+channels = ["introductions", "general", "ask-questions-here", "story-lore", "screenshots", "memes", "desu-meta", "lb4-lounge"]
+
+[[extra.categories]]
+name = "strats & theory"
+channels = ["pf-culture", "macro-tech", "encounter-discussion", "conventions-voting"]
+
+[[extra.categories]]
+name = "static formation"
+channels = ["static-recruiting", "static-lfg", "static-recruiting-archive", "static-lfg-archive"]
 
 [[extra.categories]]
 name = "voice"
-channels = ["General", "Party One", "Party Two", "World Content"]
+channels = ["General", "Party One", "Party Two"]
+
+[[extra.categories]]
+name = "server"
+channels = ["open-a-ticket", "setup-instructions", "char-setup", "bot-spam"]
 
 [[extra.categories]]
 name = "admin"
-channels = ["server-setup", "moderation", "admin-bot-commands", "member-logs", "bot-logs"]
+channels = ["community-building", "moderation", "admin-bot-commands", "member-logs", "bot-logs"]
 
 [[extra.categories]]
 name = "open tickets"
 
 [[extra.categories]]
 name = "closed tickets"
-
+# 
 [extra.args]
 default_message_notifications = 1
 explicit_content_filter = 2
