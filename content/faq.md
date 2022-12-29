@@ -41,9 +41,7 @@ Though it's perfectly fine to join a party and suggest them.
 
 You can adjust the text size for your chat windows by clicking the cog icon along the bottom bar and then switching to the "Log Details" tab.
 
-You may also need to enlarge your chat window so that macros don't get wrapped across lines, as this will ruin the visual layout.
-Unfortunately, chat window size and position isn't saved along with the rest of your layouts for some reason,
-but you could still make two different layouts, one with a bigger text box, and swap between them as needed.
+You can also enlarge the chat window temporarily to read a macro. If you're using a gamepad, you can select the chat window and press the jump button to enlarge it to the full screen temporarility. On keyboard, and mouse, you can drag the chat window from the corner to enlarge it, then put it back when you're done reading.
 
 ## These are super cool, how do I meet more cool people who like these?
 
