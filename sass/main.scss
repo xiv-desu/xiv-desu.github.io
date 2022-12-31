@@ -38,6 +38,15 @@ h1 .anchor, a + .anchor {
   display: none;
 }
 
+// A cruddy substitute for a description list
+h6 {
+  font-size: 0.95em;
+  font-weight: bold;
+  margin-block-start: 1em;
+  margin-block-end: -0.65em;
+  margin-left: -0.4em;
+}
+
 @media screen and (max-width: 768px) {
   figure {
     float: none;
