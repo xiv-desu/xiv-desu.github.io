@@ -4,6 +4,8 @@ description = "DESU etiquette for pickup groups"
 
 weight = 1
 +++
+# Party Finder Etiquette
+
 These etiquette conventions set out suggested standards for parties hosted on Dynamis.
 While these are not rules, we ask all DESU members to follow them when playing in pickup groups.
 

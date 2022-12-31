@@ -4,14 +4,17 @@ description = "DESU conventions for pickup groups"
 
 weight = 2
 +++
-These conventions represent the recommendations of DESU for pickup groups. For more information, read the [FAQ].
 
-[FAQ]: faq
+# Mechanical Conventions
+
+These conventions represent DESU's recommendations on how to handle various mechanical aspects of fights.
+They're intended for use both by blind pickup groups and in standardized strategies.
 
 These are not rules. They are recommendations. Guidelines. Don't treat them like rules.
 Conventions exist largely because, in many cases, making *any* decision is more important than making any particular decision.
 Getting everyone on the same page gets everyone progging faster, clearing more often, and having a better time.
 But the conventions are having the opposite effect if they're ruining anyone's fun.
+And specific fights will often demand that the conventions be deviated from.
 
 The conventions _will_ change over time. In the early days, they will likely change frequently.
 

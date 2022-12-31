@@ -5,6 +5,8 @@ description = "Frequently Asked Questions"
 weight = 3
 +++
 
+# FAQ
+
 ## What are the DESU conventions?
 
 They're our recommended defaults for pick-up group play.
