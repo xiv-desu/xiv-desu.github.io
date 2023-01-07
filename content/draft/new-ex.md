@@ -82,16 +82,16 @@ They're called clock spreads because the players spread to positions on a circle
 Pick-up groups following DESU etiquette lay out formations [in a fight macro or following a default position](/etiquette#positions).
 The abbreviations used for positions are as follows:
 
-Abbreviation | Meaning
--------------+--------
-`MT`         | Main tank
-`OT`         | Off-tank (also known as "side tank" in JP)
-`H1`         | Healer 1, usually the pure healer
-`H2`         | Healer 2, usually the barrier healer
-`M1`         | Melee DPS 1
-`M2`         | Melee DPS 2 or flex DPS
-`R1`         | Ranged DPS 1, usually ranged physical
-`R2`         | Ranged DPS 2, usually caster
+| Abbreviation | Meaning                                    |
+| :----------: | :----------------------------------------- |
+| `MT`         | Main tank                                  |
+| `OT`         | Off-tank (also known as "side tank" in JP) |
+| `H1`         | Healer 1, usually the pure healer          |
+| `H2`         | Healer 2, usually the barrier healer       |
+| `M1`         | Melee DPS 1                                |
+| `M2`         | Melee DPS 2 or flex DPS                    |
+| `R1`         | Ranged DPS 1, usually ranged physical      |
+| `R2`         | Ranged DPS 2, usually caster               |
 
 ## Playing the Fight
 
@@ -155,7 +155,7 @@ If you cannot pass the SSS challenge for a given fight, then you should not expe
 
 ### Mechanics
 
-Extreme and harder fights typically put much work work on the players to anticipate and avoid the boss's attacks, and punish mistakes more harsly than normal trials.
+Extreme and harder fights typically put much more work on the players to anticipate and avoid the boss's attacks, and punish mistakes more harsly than normal trials.
 In many cases, to learn to do an Extreme trial successfully, one should study the normal version of the fight carefully.
 It will typically reveal information needed for the Extreme fight.
 For instance, if the normal version of the trial has the boss do a particular animation and a clearly telegraphed AoE indicator,
