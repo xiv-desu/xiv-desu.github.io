@@ -208,7 +208,7 @@ These debuffs are often unavoidable, used to enforce correct execution of certai
 They usually are extremely powerful debuffs but, apart from [tank swaps][tankbusters], are usually very short-lived.
 
 As an example, a prototypical light party stack mechanic begins by placing stack markers over both healers.
-The players must stack with the helaers to spread the damage out and allow the healers to survive the attack.
+The players must stack with the healers to spread the damage out and allow the healers to survive the attack.
 Any player hit by the attack, however, will receive a debuff matching the type of the attack, say, Magic Vulnerability Up.
 
 Thus, if a player is hit by both attacks at the same time,
@@ -221,7 +221,7 @@ So in order to survive the mechanic, the party must split into two separate stac
 Starting with Extreme trials, bosses will begin to output unavoidable damage at a rate that genuinely threatens the party.
 The damage is often high enough that healers will struggle to keep up.
 This is especially true if the healers have to spend time and mana resurrecting other players, or if players have taken vuln stacks from mistakes.
-Caster DPS, in particular, are very squishy and are very vulnerable to dying to unavoidable damage.
+Ranged DPS, in particular, are squishy and vulnerable to dying to unavoidable damage.
 To ease burden on the healers and cover for mistakes, all players must contribute by eating appropriate [food] and mitigating icoming damage.
 
 All non-healer jobs have at least one action that mitigates damage to the party:
