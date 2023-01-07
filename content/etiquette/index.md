@@ -69,7 +69,7 @@ on a readycheck to ask a question.
 
 _Corollary_: Don't get snippy at others for asking questions.
 
-## 3. Claim positions in chat rather than doing a clock spot dance
+## 3. Claim positions in chat rather than doing a clock spot dance {#positions}
 
 Rather than placing a marker on the ground and the party positioning themselves around it, the party should claim positions in chat.
 Specifically, tanks are `MT` (main tank) and `OT` (off-tank), healers are `H1` and `H2`, melee DPS are `M1` and `M2`, and ranged DPS are `R1` and `R2`.
@@ -77,9 +77,10 @@ If the party composition is different, players may have to overflow onto other r
 
 {{ image(alt="A macro readout showing spread spots and light parties. The spread spots, clockwise from north, are: main tank, ranged 2, healer 2, melee 2, off-tank, melee 1, healer 1, ranged 1. The first light party has the main tank and healer and DPS 1; the second has the off-tank and healer and DPS 2.", src="spots.png", caption="Diagram of default positions") }}
 
-The specific assignment of spread spots and light parties is often fight specific, designed to optimize for good melee uptime or particular mechanics.
+The specific assignment of spread spots and light parties is occasionally fight specific, designed to optimize for good melee uptime or particular mechanics.
 If the party has a fight-specific macro, it will set out the spread spots and light parties, among other things.
-If the party doesn't have a fight-specific macro, then the default positions are per the diagram (a macro for this diagram is available in the DESU server).
+If the party doesn't have a fight-specific macro, or if the fight-specific macro doesn't have spread spots and light parties,
+then the default positions are per the diagram (a macro for this diagram is available in the DESU server).
 
 ### 3a. Job priorities for positions
 
@@ -97,4 +98,5 @@ The healer whose job comes first in the list should be H1.
 Generally this means that the pure healer will be H1 and the barrier healer will be H2.
 
 For DPS, the ranged physical DPS should typically be R1 and the caster should be R2.
+M1 should always be a melee DPS; the M2 DPS is the flex slot for comps with only one melee.
 

@@ -4,7 +4,7 @@ insert_anchor_links = "right"
 +++
 # Dynamis Extreme, Savage, Ultimate
 
-## [Join us on Discord!](https://discord.gg/hVtSqdfFqX)
+## [Join us on Discord!][DESU server]
 
 ## What is DESU?
 
@@ -36,3 +36,5 @@ and less on arguing and trying to remember strats
 DESU helps folks get in touch - whether you're searching for pick-up groups,
 trying to get stuff unlocked, or seeking people to play with on a more regular
 basis.
+
+[DESU server]: https://discord.gg/hVtSqdfFqX
